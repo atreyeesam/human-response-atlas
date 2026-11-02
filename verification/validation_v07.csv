@@ -1,0 +1,14 @@
+medicine,check,expected,needs_live_search,source_of_truth,reviewed
+clopidogrel,gene_established,CYP2C19,no,CPIC guideline (cpic-data repository; PMID 35034351),2026-10-31
+clopidogrel,trade_name_resolves,Plavix,yes,Common brand name for clopidogrel,2026-10-31
+clopidogrel,landmark_pmid_found,19106084,yes,"Mega JL et al. Cytochrome P-450 polymorphisms and response to clopidogrel. NEJM 2009 (PubMed listing)",2026-10-31
+clopidogrel,landmark_trial_found,NCT01742117,yes,TAILOR-PCI trial registration (ClinicalTrials.gov listing),2026-10-31
+clopidogrel,curated_ancestry_includes,East Asian,no,ClinPGx curated study parameters (verified 2026-10-31),2026-10-31
+warfarin,gene_established,CYP2C9;VKORC1,no,CPIC warfarin guideline (PMIDs 21900891; 28198005),2026-10-31
+warfarin,landmark_pmid_found,19228618,yes,"IWPC. Estimation of the warfarin dose with clinical and pharmacogenetic data. NEJM 2009 (PubMed listing)",2026-10-31
+bisoprolol,no_gene_established,,no,No CPIC level A/B pair for bisoprolol in CPIC data (2026-10-31),2026-10-31
+bisoprolol,landmark_pmid_found,10023943,yes,"CIBIS-II. Lancet 1999 (PubMed listing)",2026-10-31
+bisoprolol,efficacy_trials_and_reviews_found,,yes,Bisoprolol has many randomised trials and meta-analyses (e.g. CIBIS-II),2026-10-31
+fluorouracil,gene_established,DPYD,no,CPIC fluoropyrimidines guideline (PMIDs 23988873; 29152729),2026-10-31
+fluorouracil,landmark_pmid_found,30348537,yes,"Henricks LM et al. DPYD genotype-guided dose individualisation. Lancet Oncol 2018 (PubMed listing)",2026-10-31
+tamoxifen,gene_established,CYP2D6,no,CPIC tamoxifen/CYP2D6 guideline level A in CPIC data (2026-10-31),2026-10-31

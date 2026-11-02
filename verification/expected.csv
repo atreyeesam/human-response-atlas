@@ -1,0 +1,7 @@
+drug,gene,expected_cpic_level,expected_guideline_pmids,expected_top_clinpgx_level,expected_dominant_ancestry,reference
+abacavir,HLA-B,A,22378157;24561393,1A,,CPIC abacavir/HLA-B guideline 2012 and 2014 update (cpic-data repository; PubMed 24561393)
+clopidogrel,CYP2C19,A,21716271;23698643;35034351,1A,,CPIC clopidogrel/CYP2C19 guideline 2011 2013 and 2022 update (cpic-data repository; PubMed 35034351)
+warfarin,CYP2C9,A,21900891;28198005,1A,,CPIC warfarin guideline 2011 and 2017 update (cpic-data repository; PubMed 28198005)
+fluorouracil,DPYD,A,23988873;29152729,1A,,CPIC fluoropyrimidines/DPYD guideline 2013 and 2017 update (cpic-data repository; PubMed 29152729)
+carbamazepine,HLA-B,A,23695185;29392710,1A,East Asian,CPIC carbamazepine/HLA guideline 2013 and 2017 update; HLA-B*15:02 evidence comes mainly from East Asian cohorts
+allopurinol,HLA-B,A,23232549;26094938,1A,East Asian,CPIC allopurinol/HLA-B guideline 2013 and 2015 update; HLA-B*58:01 evidence comes mainly from East Asian cohorts

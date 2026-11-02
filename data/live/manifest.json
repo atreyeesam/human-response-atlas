@@ -1,0 +1,99 @@
+{
+  "atlas_ingest_version": "0.3.0",
+  "accessed_utc": "2026-11-02T07:39:33+00:00",
+  "sources": {
+    "clinpgx": {
+      "summaryAnnotations": {
+        "url": "https://api.clinpgx.org/v1/download/file/data/summaryAnnotations.zip",
+        "sha256": "16e10905ca674f1e3dcf0477f0d3a1e7c4380eeda35fed612f5a7a218288adb5",
+        "bytes": 1236737,
+        "release_date": "2026-10-05",
+        "files": [
+          "CREATED_2026-10-05.txt",
+          "LICENSE.txt",
+          "summary_ann_alleles",
+          "summary_ann_evidence",
+          "summary_ann_history",
+          "summary_annotations"
+        ]
+      },
+      "variantAnnotations": {
+        "url": "https://api.clinpgx.org/v1/download/file/data/variantAnnotations.zip",
+        "sha256": "ab29a58fbdad0e3770e24c5e3c4df7d91dd2534881693f1ac5c8f8772d4965f0",
+        "bytes": 4296635,
+        "release_date": "2026-10-05",
+        "files": [
+          "CREATED_2026-10-05.txt",
+          "LICENSE.txt",
+          "study_parameters",
+          "var_drug_ann",
+          "var_fa_ann",
+          "var_pheno_ann"
+        ]
+      }
+    },
+    "cpic": {
+      "endpoints": {
+        "pair_view": "https://api.cpicpgx.org/v1/pair_view",
+        "publication": "https://api.cpicpgx.org/v1/publication?guidelineid=not.is.null&select=guidelineid,pmid,pmcid,doi,title,year,journal,url",
+        "guideline": "https://api.cpicpgx.org/v1/guideline?select=id,name,url,clinpgxid",
+        "change_log": "https://api.cpicpgx.org/v1/change_log?select=date,deployedrelease&deployedrelease=not.is.null&order=date.desc&limit=1"
+      },
+      "release": "v1.61.0",
+      "pairs": 574,
+      "guideline_publications": 48
+    },
+    "pubmed": {
+      "pmids": 5955,
+      "fetched_now": 0,
+      "not_found": 1,
+      "eutils": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
+    }
+  },
+  "licences": {
+    "clinpgx": {
+      "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
+      "short": "CC BY-NC-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "policy": "https://www.clinpgx.org/page/dataUsagePolicy",
+      "cite": "https://www.clinpgx.org/page/citingClinpgx",
+      "noncommercial": true,
+      "sharealike": true,
+      "detected_from": "clinpgx_summaryAnnotations_LICENSE.txt"
+    },
+    "pubmed": {
+      "name": "NLM terms and conditions (bibliographic data courtesy of the U.S. National Library of Medicine)",
+      "url": "https://www.nlm.nih.gov/databases/download/terms_and_conditions.html",
+      "policy": "https://www.ncbi.nlm.nih.gov/home/about/policies/"
+    },
+    "cpic": {
+      "name": "CC0 1.0 Universal (public domain dedication), with CPIC attribution requests",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "policy": "https://github.com/cpicpgx/cpic-data/blob/main/LICENSE.md"
+    }
+  },
+  "outputs": {
+    "associations.csv": {
+      "rows": 6913
+    },
+    "evidence.csv": {
+      "rows": 15542
+    },
+    "study_populations.csv": {
+      "rows": 19457
+    },
+    "pubmed.csv": {
+      "rows": 5955
+    },
+    "study_locations.csv": {
+      "rows": 8029
+    },
+    "cpic_pairs.csv": {
+      "rows": 574
+    },
+    "cpic_publications.csv": {
+      "rows": 48
+    }
+  },
+  "cpic_release_source": "https://api.github.com/repos/cpicpgx/cpic-data/releases/latest"
+}

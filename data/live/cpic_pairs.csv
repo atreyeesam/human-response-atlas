@@ -1,0 +1,575 @@
+cpic_pair_id,drug,gene,cpic_level,cpic_provisional,clinpgx_top_level,fda_label_testing,cpic_guideline,cpic_guideline_url,cpic_pmids
+1556299,atorvastatin,SLCO1B1,A,False,1A,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,35152405
+110086,capecitabine,DPYD,A,False,1A,Testing Required,DPYD and Fluoropyrimidines,https://www.clinpgx.org/guideline/PA166251462,23988873;29152729
+110087,carbamazepine,HLA-A,A,False,1A,Actionable PGx,"HLA-A, HLA-B and Carbamazepine and Oxcarbazepine",https://www.clinpgx.org/guideline/PA166251448,23695185;29392710
+110088,carbamazepine,HLA-B,A,False,1A,Testing Required,"HLA-A, HLA-B and Carbamazepine and Oxcarbazepine",https://www.clinpgx.org/guideline/PA166251448,23695185;29392710
+110089,celecoxib,CYP2C9,A,False,1A,Actionable PGx,CYP2C9 and NSAIDs,https://www.clinpgx.org/guideline/PA166251464,32189324
+110090,citalopram,CYP2C19,A,False,1A,Actionable PGx,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,25974703;37032427
+110093,desflurane,CACNA1S,A,False,1A,Actionable PGx,"RYR1, CACNA1S and Volatile anesthetic agents and Succinylcholine",https://www.clinpgx.org/guideline/PA166251460,30499100
+110095,efavirenz,CYP2B6,A,False,1A,Informative PGx,CYP2B6 and efavirenz,https://www.clinpgx.org/guideline/PA166251463,31006110
+1556301,fluvastatin,SLCO1B1,A,False,1A,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,35152405
+110103,halothane,CACNA1S,A,False,1A,,"RYR1, CACNA1S and Volatile anesthetic agents and Succinylcholine",https://www.clinpgx.org/guideline/PA166251460,30499100
+110158,hydralazine,NAT2,A,False,1A,Actionable PGx,NAT2 and Hydralazine,https://www.clinpgx.org/guideline/PA166416361,
+3004620,netilmicin,MT-RNR1,A,False,,,MT-RNR1 and Aminoglycosides,https://www.clinpgx.org/guideline/PA166251466,34032273
+110117,nortriptyline,CYP2D6,A,False,1A,Informative PGx,"CYP2D6, CYP2C19 and Tricyclic Antidepressants",https://www.clinpgx.org/guideline/PA166251445,23486447;27997040
+826284,paromomycin,MT-RNR1,A,False,,,MT-RNR1 and Aminoglycosides,https://www.clinpgx.org/guideline/PA166251466,34032273
+3004621,ribostamycin,MT-RNR1,A,False,,,MT-RNR1 and Aminoglycosides,https://www.clinpgx.org/guideline/PA166251466,34032273
+110143,thioguanine,NUDT15,A,False,3,Testing Recommended,"TPMT, NUDT15 and Thiopurines",https://www.clinpgx.org/guideline/PA166251442,21270794;23422873;30447069;41618934
+110147,voriconazole,CYP2C19,A,False,1A,Informative PGx,CYP2C19 and Voriconazole,https://www.clinpgx.org/guideline/PA166251456,27981572
+110168,vortioxetine,CYP2D6,A,False,1A,Actionable PGx,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+110149,warfarin,CYP4F2,A,False,1A,,"CYP2C9, VKORC1, CYP4F2 and Warfarin",https://www.clinpgx.org/guideline/PA166251465,21900891;28198005
+110150,warfarin,VKORC1,A,False,1A,Actionable PGx,"CYP2C9, VKORC1, CYP4F2 and Warfarin",https://www.clinpgx.org/guideline/PA166251465,21900891;28198005
+110169,acenocoumarol,CYP2C9,B,True,1B,,,,
+110180,clomipramine,CYP2C19,B,False,1A,,"CYP2D6, CYP2C19 and Tricyclic Antidepressants",https://www.clinpgx.org/guideline/PA166251445,23486447;27997040
+110181,clomipramine,CYP2D6,B,False,1A,Informative PGx,"CYP2D6, CYP2C19 and Tricyclic Antidepressants",https://www.clinpgx.org/guideline/PA166251445,23486447;27997040
+110189,fluvoxamine,CYP2D6,B,False,1A,Actionable PGx,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,25974703;37032427
+110194,imipramine,CYP2C19,B,False,1A,,"CYP2D6, CYP2C19 and Tricyclic Antidepressants",https://www.clinpgx.org/guideline/PA166251445,23486447;27997040
+469134,bupropion,CYP2B6,B/C,True,2A,,,,
+110252,deutetrabenazine,CYP2D6,B/C,True,,Actionable PGx,,,
+110257,doxorubicin,SLC28A3,B/C,True,2B,,,,
+110259,elagolix,SLCO1B1,B/C,True,,Informative PGx,,,
+110266,iloperidone,CYP2D6,B/C,True,3,Actionable PGx,,,
+110267,labetalol,CYP2D6,B/C,True,,,,,
+110268,lapatinib,HLA-DRB1,B/C,True,3,Informative PGx,,,
+110270,lidocaine,G6PD,B/C,True,,,,,
+110271,l-methylfolate,MTHFR,B/C,True,3,,,,
+110272,lofexidine,CYP2D6,B/C,True,,Actionable PGx,,,
+110273,meclizine,CYP2D6,B/C,True,,Actionable PGx,,,
+110278,mirabegron,CYP2D6,B/C,True,,Informative PGx,,,
+110295,tamsulosin,CYP2D6,B/C,True,,Actionable PGx,,,
+2452901,aminosalicylic acid,G6PD,C,False,,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110154,aspirin,G6PD,C,False,3,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110314,chloroquine,G6PD,C,False,4,Actionable PGx,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110247,citalopram,SLC6A4,C,False,4,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+418187,codeine,COMT,C,False,,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110326,diclofenac,CYP2C9,C,False,3,,CYP2C9 and NSAIDs,https://www.clinpgx.org/guideline/PA166251464,32189324
+3122081,duloxetine,CYP2C19,C,False,,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+110333,esomeprazole,CYP2C19,C,False,3,No Clinical PGx,CYP2C19 and Proton Pump Inhibitors,https://www.clinpgx.org/guideline/PA166251441,32770672
+3122091,fluoxetine,CYP2C19,C,False,,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+2777631,fluvastatin,CYP3A5,C,False,,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,
+110345,haloperidol,MC4R,C,True,3,,,,
+110061,ibuprofen,CYP2C8,C,False,3,,CYP2C9 and NSAIDs,https://www.clinpgx.org/guideline/PA166251464,32189324
+418198,methadone,COMT,C,False,3,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+418197,methadone,CYP2D6,C,False,3,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110206,norfloxacin,G6PD,C,False,,Informative PGx,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110213,quinine,G6PD,C,False,,Actionable PGx,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+3122379,sertraline,HTR2A,C,False,4,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+110219,sulfadiazine,G6PD,C,False,,Informative PGx,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110452,cetuximab,EGF,D,True,3,,,,
+110484,fluticasone/salmeterol,CRHR1,D,True,,,,,
+110082,atazanavir,UGT1A1,A,False,1A,,UGT1A1 and Atazanavir,https://www.clinpgx.org/guideline/PA166251453,26417955
+110083,atomoxetine,CYP2D6,A,False,1A,Actionable PGx,CYP2D6 and Atomoxetine,https://www.clinpgx.org/guideline/PA166251459,30801677
+110092,codeine,CYP2D6,A,False,1A,Actionable PGx,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,22205192;24458010;33387367
+3004618,dibekacin,MT-RNR1,A,False,,,MT-RNR1 and Aminoglycosides,https://www.clinpgx.org/guideline/PA166251466,34032273
+110098,escitalopram,CYP2C19,A,False,1A,Informative PGx,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,25974703;37032427
+110099,fluorouracil,DPYD,A,False,1A,Testing Required,DPYD and Fluoropyrimidines,https://www.clinpgx.org/guideline/PA166251462,23988873;29152729
+110100,flurbiprofen,CYP2C9,A,False,1A,Actionable PGx,CYP2C9 and NSAIDs,https://www.clinpgx.org/guideline/PA166251464,32189324
+1556302,fluvastatin,CYP2C9,A,False,1A,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,35152405
+110108,isoflurane,RYR1,A,False,1A,Actionable PGx,"RYR1, CACNA1S and Volatile anesthetic agents and Succinylcholine",https://www.clinpgx.org/guideline/PA166251460,30499100
+110109,ivacaftor,CFTR,A,False,1A,Testing Required,CFTR and Ivacaftor,https://www.clinpgx.org/guideline/PA166251449,24598717
+110159,kanamycin,MT-RNR1,A,False,1A,,MT-RNR1 and Aminoglycosides,https://www.clinpgx.org/guideline/PA166251466,34032273
+110065,lornoxicam,CYP2C9,A,False,1A,,CYP2C9 and NSAIDs,https://www.clinpgx.org/guideline/PA166251464,32189324
+1556300,lovastatin,SLCO1B1,A,False,1A,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,35152405
+110067,meloxicam,CYP2C9,A,False,1A,Informative PGx,CYP2C9 and NSAIDs,https://www.clinpgx.org/guideline/PA166251464,32189324
+110114,mercaptopurine,TPMT,A,False,1A,Testing Recommended,"TPMT, NUDT15 and Thiopurines",https://www.clinpgx.org/guideline/PA166251442,21270794;23422873;30447069;41618934
+110115,methoxyflurane,CACNA1S,A,False,1A,,"RYR1, CACNA1S and Volatile anesthetic agents and Succinylcholine",https://www.clinpgx.org/guideline/PA166251460,30499100
+110116,methoxyflurane,RYR1,A,False,1A,,"RYR1, CACNA1S and Volatile anesthetic agents and Succinylcholine",https://www.clinpgx.org/guideline/PA166251460,30499100
+110201,methylene blue,G6PD,A,False,3,Actionable PGx,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+3004619,neomycin,MT-RNR1,A,False,1A,Actionable PGx,MT-RNR1 and Aminoglycosides,https://www.clinpgx.org/guideline/PA166251466,34032273
+110118,omeprazole,CYP2C19,A,False,1A,Informative PGx,CYP2C19 and Proton Pump Inhibitors,https://www.clinpgx.org/guideline/PA166251441,32770672
+110120,oxcarbazepine,HLA-B,A,False,1A,Testing Recommended,"HLA-A, HLA-B and Carbamazepine and Oxcarbazepine",https://www.clinpgx.org/guideline/PA166251448,29392710
+110121,pantoprazole,CYP2C19,A,False,1A,Actionable PGx,CYP2C19 and Proton Pump Inhibitors,https://www.clinpgx.org/guideline/PA166251441,32770672
+110122,paroxetine,CYP2D6,A,False,1A,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,25974703;37032427
+110207,pegloticase,G6PD,A,False,3,Testing Required,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110127,phenytoin,CYP2C9,A,False,1A,Actionable PGx,"CYP2C9, HLA-B and Phenytoin",https://www.clinpgx.org/guideline/PA166251461,25099164;32779747
+110128,phenytoin,HLA-B,A,False,1A,Actionable PGx,"CYP2C9, HLA-B and Phenytoin",https://www.clinpgx.org/guideline/PA166251461,25099164;32779747
+110071,piroxicam,CYP2C9,A,False,1A,Actionable PGx,CYP2C9 and NSAIDs,https://www.clinpgx.org/guideline/PA166251464,32189324
+1556298,pitavastatin,SLCO1B1,A,False,1A,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,35152405
+110130,pitolisant,CYP2D6,A,True,,Actionable PGx,,,
+826285,plazomicin,MT-RNR1,A,False,,Actionable PGx,MT-RNR1 and Aminoglycosides,https://www.clinpgx.org/guideline/PA166251466,34032273
+110381,pravastatin,SLCO1B1,A,False,1A,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,35152405
+110211,primaquine,G6PD,A,False,3,Testing Required,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110131,rasburicase,G6PD,A,False,1A,Testing Required,G6PD,https://www.clinpgx.org/guideline/PA166251450,24787449;36049896
+110215,rosuvastatin,ABCG2,A,False,1A,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,35152405
+110391,rosuvastatin,SLCO1B1,A,False,1A,Informative PGx,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,35152405
+110216,sertraline,CYP2C19,A,False,1A,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,25974703;37032427
+110133,sevoflurane,CACNA1S,A,False,1A,Actionable PGx,"RYR1, CACNA1S and Volatile anesthetic agents and Succinylcholine",https://www.clinpgx.org/guideline/PA166251460,30499100
+110134,sevoflurane,RYR1,A,False,1A,Actionable PGx,"RYR1, CACNA1S and Volatile anesthetic agents and Succinylcholine",https://www.clinpgx.org/guideline/PA166251460,30499100
+110135,simvastatin,SLCO1B1,A,False,1A,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,22617227;24918167;35152405
+110136,siponimod,CYP2C9,A,True,1A,Testing Required,,,
+110162,streptomycin,MT-RNR1,A,False,1A,Actionable PGx,MT-RNR1 and Aminoglycosides,https://www.clinpgx.org/guideline/PA166251466,34032273
+110137,succinylcholine,CACNA1S,A,False,1A,Actionable PGx,"RYR1, CACNA1S and Volatile anesthetic agents and Succinylcholine",https://www.clinpgx.org/guideline/PA166251460,30499100
+110138,succinylcholine,RYR1,A,False,1A,Actionable PGx,"RYR1, CACNA1S and Volatile anesthetic agents and Succinylcholine",https://www.clinpgx.org/guideline/PA166251460,30499100
+110139,tacrolimus,CYP3A5,A,False,1A,,CYP3A5 and Tacrolimus,https://www.clinpgx.org/guideline/PA166251451,25801146
+110140,tafenoquine,G6PD,A,False,,Testing Required,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110141,tamoxifen,CYP2D6,A,False,1A,Informative PGx,CYP2D6 and Tamoxifen,https://www.clinpgx.org/guideline/PA166251458,29385237
+110072,tenoxicam,CYP2C9,A,False,1A,,CYP2C9 and NSAIDs,https://www.clinpgx.org/guideline/PA166251464,32189324
+110164,tobramycin,MT-RNR1,A,False,1A,Actionable PGx,MT-RNR1 and Aminoglycosides,https://www.clinpgx.org/guideline/PA166251466,34032273
+2452949,toluidine blue,G6PD,A,False,,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110145,tramadol,CYP2D6,A,False,1A,Actionable PGx,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110186,doxepin,CYP2C19,B,False,1A,Informative PGx,"CYP2D6, CYP2C19 and Tricyclic Antidepressants",https://www.clinpgx.org/guideline/PA166251445,23486447;27997040
+110276,metoprolol,CYP2D6,B,False,1A,Informative PGx,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+110291,raltegravir,UGT1A1,B/C,True,,No Clinical PGx,,,
+3122142,citalopram,CYP2D6,C,False,3,No Clinical PGx,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+110123,peginterferon alfa-2a,IFNL3,Retired,False,1B,,IFNL3 and Peginterferon-alpha-based Regimens,https://www.clinpgx.org/guideline/PA166251455,24096968
+110124,peginterferon alfa-2a,IFNL4,Retired,False,1B,,IFNL3 and Peginterferon-alpha-based Regimens,https://www.clinpgx.org/guideline/PA166251455,
+110125,peginterferon alfa-2b,IFNL3,Retired,False,1B,Informative PGx,IFNL3 and Peginterferon-alpha-based Regimens,https://www.clinpgx.org/guideline/PA166251455,24096968
+110126,peginterferon alfa-2b,IFNL4,Retired,False,1B,,IFNL3 and Peginterferon-alpha-based Regimens,https://www.clinpgx.org/guideline/PA166251455,
+110079,allopurinol,HLA-B,A,False,1A,Testing Recommended,HLA-B and Allopurinol,https://www.clinpgx.org/guideline/PA166251446,23232549;26094938
+110080,amitriptyline,CYP2C19,A,False,1A,,"CYP2D6, CYP2C19 and Tricyclic Antidepressants",https://www.clinpgx.org/guideline/PA166251445,23486447;27997040
+110085,azathioprine,TPMT,A,False,1A,Testing Recommended,"TPMT, NUDT15 and Thiopurines",https://www.clinpgx.org/guideline/PA166251442,21270794;23422873;30447069;41618934
+110096,enflurane,CACNA1S,A,False,1A,,"RYR1, CACNA1S and Volatile anesthetic agents and Succinylcholine",https://www.clinpgx.org/guideline/PA166251460,30499100
+110097,enflurane,RYR1,A,False,1A,,"RYR1, CACNA1S and Volatile anesthetic agents and Succinylcholine",https://www.clinpgx.org/guideline/PA166251460,30499100
+110101,fosphenytoin,CYP2C9,A,False,,Actionable PGx,"CYP2C9, HLA-B and Phenytoin",https://www.clinpgx.org/guideline/PA166251461,25099164;32779747
+110102,fosphenytoin,HLA-B,A,False,,Actionable PGx,"CYP2C9, HLA-B and Phenytoin",https://www.clinpgx.org/guideline/PA166251461,25099164;32779747
+110157,gentamicin,MT-RNR1,A,False,1A,Actionable PGx,MT-RNR1 and Aminoglycosides,https://www.clinpgx.org/guideline/PA166251466,34032273
+110104,halothane,RYR1,A,False,1A,,"RYR1, CACNA1S and Volatile anesthetic agents and Succinylcholine",https://www.clinpgx.org/guideline/PA166251460,30499100
+110063,ibuprofen,CYP2C9,A,False,1A,,CYP2C9 and NSAIDs,https://www.clinpgx.org/guideline/PA166251464,32189324
+110106,irinotecan,UGT1A1,A,True,1A,Testing Recommended,,,
+110107,isoflurane,CACNA1S,A,False,1A,Actionable PGx,"RYR1, CACNA1S and Volatile anesthetic agents and Succinylcholine",https://www.clinpgx.org/guideline/PA166251460,30499100
+110110,lansoprazole,CYP2C19,A,False,1A,Informative PGx,CYP2C19 and Proton Pump Inhibitors,https://www.clinpgx.org/guideline/PA166251441,32770672
+110205,nitrofurantoin,G6PD,A,False,3,Actionable PGx,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110148,warfarin,CYP2C9,A,False,1A,Actionable PGx,"CYP2C9, VKORC1, CYP4F2 and Warfarin",https://www.clinpgx.org/guideline/PA166251465,21900891;28198005
+110156,eliglustat,CYP2D6,A/B,True,,Testing Required,,,
+110166,velaglucerase alfa,GBA,A/B,True,,,,,
+110172,belinostat,UGT1A1,B,True,,Actionable PGx,,,
+110174,carbamazepine,SCN1A,B,True,2B,,,,
+110175,carglumic acid,NAGS,B,True,,,,,
+110183,desipramine,CYP2D6,B,False,1A,Informative PGx,"CYP2D6, CYP2C19 and Tricyclic Antidepressants",https://www.clinpgx.org/guideline/PA166251445,23486447;27997040
+110184,dexlansoprazole,CYP2C19,B,False,1A,Informative PGx,CYP2C19 and Proton Pump Inhibitors,https://www.clinpgx.org/guideline/PA166251441,32770672
+110187,doxepin,CYP2D6,B,False,1A,Informative PGx,"CYP2D6, CYP2C19 and Tricyclic Antidepressants",https://www.clinpgx.org/guideline/PA166251445,23486447;27997040
+110195,imipramine,CYP2D6,B,False,1A,Informative PGx,"CYP2D6, CYP2C19 and Tricyclic Antidepressants",https://www.clinpgx.org/guideline/PA166251445,23486447;27997040
+110203,mycophenolic acid,HPRT1,B,True,,Actionable PGx,,,
+110209,phenprocoumon,CYP4F2,B,True,3,,,,
+110210,phenytoin,SCN1A,B,True,3,,,,
+110214,risperidone,CYP2D6,B,True,1A,No Clinical PGx,,,
+3122076,sertraline,CYP2B6,B,False,1A,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+110223,trimipramine,CYP2C19,B,False,1A,,"CYP2D6, CYP2C19 and Tricyclic Antidepressants",https://www.clinpgx.org/guideline/PA166251445,23486447;27997040
+110224,trimipramine,CYP2D6,B,False,1A,Informative PGx,"CYP2D6, CYP2C19 and Tricyclic Antidepressants",https://www.clinpgx.org/guideline/PA166251445,23486447;27997040
+110225,valproic acid,ABL2,B,True,,,,,
+110226,valproic acid,ASL,B,True,,,,,
+110227,valproic acid,ASS1,B,True,,,,,
+110228,valproic acid,CPS1,B,True,,,,,
+110229,valproic acid,NAGS,B,True,,,,,
+110230,valproic acid,OTC,B,True,,Actionable PGx,,,
+110167,venlafaxine,CYP2D6,B,False,1A,Informative PGx,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+110231,allopurinol,HLA-A,B/C,True,2B,,,,
+110232,amifampridine,NAT2,B/C,True,,Actionable PGx,,,
+110233,amifampridine phosphate,NAT2,B/C,True,,Actionable PGx,,,
+110234,amoxapine,CYP2D6,B/C,True,,Informative PGx,,,
+110235,amphetamine,CYP2D6,B/C,True,,Informative PGx,,,
+110236,aripiprazole lauroxil,CYP2D6,B/C,True,,Actionable PGx,,,
+110239,avatrombopag,CYP2C9,B/C,True,,Informative PGx,,,
+110240,brexpiprazole,CYP2D6,B/C,True,3,Actionable PGx,,,
+110241,bucindolol,ADRB1,B/C,True,3,,,,
+110242,carisoprodol,CYP2C19,B/C,True,4,Actionable PGx,,,
+110246,cevimeline,CYP2D6,B/C,True,,Actionable PGx,,,
+110248,clobazam,CYP2C19,B/C,True,2A,Actionable PGx,,,
+110249,clozapine,CYP2D6,B/C,True,,Actionable PGx,,,
+110251,daunorubicin,SLC28A3,B/C,True,2B,,,,
+110253,dextromethorphan,CYP2D6,B/C,True,1B,,,,
+110256,donepezil,CYP2D6,B/C,True,3,Informative PGx,,,
+110258,dronabinol,CYP2C9,B/C,True,,Actionable PGx,,,
+110260,erdafitinib,CYP2C9,B/C,True,,Actionable PGx,,,
+110262,flecainide,CYP2D6,B/C,True,1A,,,,
+110263,gefitinib,CYP2D6,B/C,True,3,Actionable PGx,,,
+110264,haloperidol,CYP2D6,B/C,True,1A,,,,
+110269,lesinurad,CYP2C9,B/C,True,,Actionable PGx,,,
+110274,metoclopramide,CYP2D6,B/C,True,,Actionable PGx,,,
+110279,mirtazapine,CYP2D6,B/C,True,2A,,,,
+110280,mivacurium,BCHE,B/C,True,,Actionable PGx,,,
+110282,nevirapine,CYP2B6,B/C,True,2A,,,,
+110283,nilotinib,UGT1A1,B/C,True,3,Informative PGx,,,
+110285,pazopanib,UGT1A1,B/C,True,3,Informative PGx,,,
+110286,perphenazine,CYP2D6,B/C,True,,Informative PGx,,,
+110290,protriptyline,CYP2D6,B/C,True,,Informative PGx,,,
+110292,succinylcholine,BCHE,B/C,True,3,Actionable PGx,,,
+110293,sulfamethoxazole / trimethoprim,NAT2,B/C,True,3,Informative PGx,,,
+110296,thioridazine,CYP2D6,B/C,True,3,Actionable PGx,,,
+110297,timolol,CYP2D6,B/C,True,3,,,,
+110298,valbenazine,CYP2D6,B/C,True,,Actionable PGx,,,
+110299,zuclopenthixol,CYP2D6,B/C,True,1A,,,,
+110301,adalimumab,TNF,C,True,,,,,
+110091,clopidogrel,CYP2C19,A,False,1A,Actionable PGx,CYP2C19 and Clopidogrel,https://www.clinpgx.org/guideline/PA166251443,21716271;23698643;35034351
+110182,dapsone,G6PD,A,False,4,Actionable PGx,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110094,desflurane,RYR1,A,False,1A,Actionable PGx,"RYR1, CACNA1S and Volatile anesthetic agents and Succinylcholine",https://www.clinpgx.org/guideline/PA166251460,30499100
+110161,pimozide,CYP2D6,A/B,True,,Testing Required,,,
+110163,tetrabenazine,CYP2D6,A/B,True,,Testing Required,,,
+110165,valproic acid,POLG,A/B,True,3,Testing Required,,,
+110170,acenocoumarol,CYP4F2,B,True,2A,,,,
+110171,aripiprazole,CYP2D6,B,True,1A,Actionable PGx,,,
+110173,brivaracetam,CYP2C19,B,True,3,Actionable PGx,,,
+110193,hydrocodone,CYP2D6,B,False,1A,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110254,diazepam,CYP2C19,B/C,True,3,Informative PGx,,,
+110284,pazopanib,HLA-B,B/C,True,,Informative PGx,,,
+110287,procainamide,NAT2,B/C,True,,Informative PGx,,,
+110294,sulfasalazine,NAT2,B/C,True,,Informative PGx,,,
+418183,alfentanil,COMT,C,False,,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110302,alfentanil,OPRM1,C,False,3,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110303,allopurinol,HLA-C,C,True,2B,,,,
+110304,amisulpride,MC4R,C,True,3,,,,
+110312,carbimazole,HLA-B,C,True,3,,,,
+110313,carboplatin,MTHFR,C,True,3,,,,
+110178,chlorpropamide,G6PD,C,False,,Actionable PGx,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110179,ciprofloxacin,G6PD,C,False,3,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110315,citalopram,COMT,C,True,,,,,
+110316,citalopram,GRIK4,C,True,,,,,
+110317,citalopram,HTR2A,C,False,3,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+110318,clopidogrel,CES1,C,True,2B,,,,
+110319,clozapine,HTR2C,C,True,3,,,,
+110320,clozapine,MC4R,C,True,3,,,,
+418188,codeine,OPRM1,C,False,3,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110322,cyclosporine,CYP3A5,C,True,3,,,,
+110250,dabrafenib,G6PD,C,False,,Actionable PGx,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110323,dapsone,HLA-B,C,True,2A,,,,
+110324,darifenacin,CYP2D6,C,True,,Informative PGx,,,
+3122371,desvenlafaxine,HTR2A,C,False,,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+3122500,desvenlafaxine,SLC6A4,C,False,,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+110059,diclofenac,CYP2C8,C,False,3,,CYP2C9 and NSAIDs,https://www.clinpgx.org/guideline/PA166251464,32189324
+110327,digoxin,ABCB1,C,True,3,,,,
+110185,dimercaprol,G6PD,C,False,3,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+2452910,doxorubicin,G6PD,C,False,,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110329,duloxetine,CYP2D6,C,False,,Informative PGx,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+3122372,duloxetine,HTR2A,C,False,,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+3122501,duloxetine,SLC6A4,C,False,,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+110330,eltrombopag,F5,C,True,,Actionable PGx,,,
+110331,escitalopram,COMT,C,True,,,,,
+110332,escitalopram,GRIK4,C,True,,,,,
+3122373,escitalopram,HTR2A,C,False,3,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+110261,escitalopram,SLC6A4,C,False,4,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+110334,etanercept,TNF,C,True,2B,,,,
+110335,fentanyl,ABCB1,C,True,3,,,,
+418189,fentanyl,COMT,C,False,3,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110336,fentanyl,OPRM1,C,False,3,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110337,fesoterodine,CYP2D6,C,True,,Informative PGx,,,
+110338,flibanserin,CYP2C19,C,True,,Actionable PGx,,,
+110339,flibanserin,CYP2C9,C,True,,Informative PGx,,,
+110340,flibanserin,CYP2D6,C,True,,Informative PGx,,,
+110343,fluoxetine,GRIK4,C,True,,,,,
+3122374,fluoxetine,HTR2A,C,False,4,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+3122503,fluoxetine,SLC6A4,C,False,3,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+2777624,fluvastatin,CYP3A4,C,False,3,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,
+2777771,fluvastatin,HMGCR,C,False,3,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,
+3122092,fluvoxamine,CYP2C19,C,False,,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+3122375,fluvoxamine,HTR2A,C,False,4,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+3122504,fluvoxamine,SLC6A4,C,False,3,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+2452912,furazolidone,G6PD,C,False,,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110344,galantamine,CYP2D6,C,True,3,No Clinical PGx,,,
+2452913,gliclazide,G6PD,C,False,,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110191,glimepiride,G6PD,C,False,,Actionable PGx,G6PD,https://www.clinpgx.org/guideline/PA166251450,
+110192,glipizide,G6PD,C,False,,Actionable PGx,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110346,hormonal contraceptives for systemic use,F5,C,True,2B,,,,
+418191,hydrocodone,COMT,C,False,,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+418192,hydrocodone,OPRM1,C,False,3,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+418193,hydromorphone,COMT,C,False,,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+418194,hydromorphone,OPRM1,C,False,,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110265,hydroxychloroquine,G6PD,C,False,,Actionable PGx,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110200,methadone,CYP2B6,C,False,2A,,CYP2B6 and methadone,https://www.clinpgx.org/guideline/PA166411641,38863207
+110155,divalproex sodium,POLG,A/B,True,,Testing Required,,,
+110160,oliceridine,CYP2D6,A/B,True,,Actionable PGx,,,
+110309,ataluren,CFTR,C,True,3,,,,
+2777623,atorvastatin,CYP3A4,C,False,3,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,
+2777630,atorvastatin,CYP3A5,C,False,3,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,
+2777770,atorvastatin,HMGCR,C,False,3,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,
+418185,buprenorphine,COMT,C,False,3,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+418186,buprenorphine,OPRM1,C,False,3,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110064,indomethacin,CYP2C9,C,False,3,,CYP2C9 and NSAIDs,https://www.clinpgx.org/guideline/PA166251464,32189324
+110349,infliximab,TNF,C,True,3,,,,
+110350,isoniazid,NAT2,C,True,1B,Informative PGx,,,
+110351,lapatinib,HLA-DQA1,C,True,3,Informative PGx,,,
+418195,levomethadone,COMT,C,False,,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+418196,levomethadone,OPRM1,C,False,,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110197,mafenide,G6PD,C,False,,Informative PGx,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+2452922,mepacrine,G6PD,C,False,,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110199,mesalazine,G6PD,C,False,,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110355,methadone,OPRM1,C,False,3,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110356,methazolamide,HLA-B,C,True,2A,,,,
+110357,methazolamide,HLA-C,C,True,2B,,,,
+110358,methimazole,HLA-B,C,True,3,,,,
+110359,methotrexate,ABCB1,C,True,3,,,,
+110360,methotrexate,MTHFR,C,True,2A,,,,
+110361,methotrexate,SLCO1B1,C,True,3,,,,
+110362,methylphenidate,CYP2D6,C,True,3,,,,
+3122377,milnacipran,HTR2A,C,False,,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+3122506,milnacipran,SLC6A4,C,False,,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+110363,modafinil,CYP2D6,C,True,,,,,
+418200,morphine,COMT,C,False,3,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110364,morphine,OPRM1,C,False,3,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110202,moxifloxacin,G6PD,C,False,,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110069,nabumetone,CYP2C9,C,False,,,CYP2C9 and NSAIDs,https://www.clinpgx.org/guideline/PA166251464,32189324
+110204,nalidixic acid,G6PD,C,False,,Actionable PGx,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110366,naloxone,OPRM1,C,True,3,,,,
+418202,naltrexone,COMT,C,False,,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110367,naltrexone,OPRM1,C,False,4,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110070,naproxen,CYP2C9,C,False,3,,CYP2C9 and NSAIDs,https://www.clinpgx.org/guideline/PA166251464,32189324
+110369,nevirapine,ABCB1,C,True,3,,,,
+110370,nevirapine,HLA-B,C,True,3,,,,
+110371,nevirapine,HLA-DRB1,C,True,2B,,,,
+2452927,nicorandil,G6PD,C,False,,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+2452928,nitrofural,G6PD,C,False,,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110373,olanzapine,HTR2C,C,True,3,,,,
+110374,olanzapine,MC4R,C,True,3,,,,
+110376,oxcarbazepine,HLA-A,C,False,3,,"HLA-A, HLA-B and Carbamazepine and Oxcarbazepine",https://www.clinpgx.org/guideline/PA166251448,29392710
+418205,oxycodone,COMT,C,False,3,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110377,oxycodone,CYP2D6,C,False,2A,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+418206,oxycodone,OPRM1,C,False,3,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110378,paliperidone,MC4R,C,True,3,,,,
+3122097,paroxetine,CYP2C19,C,False,,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+110380,paroxetine,GRIK4,C,True,,,,,
+3122378,paroxetine,HTR2A,C,False,3,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+3122507,paroxetine,SLC6A4,C,False,3,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+110208,phenazopyridine,G6PD,C,False,3,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+2946944,pitavastatin,CYP3A4,C,False,,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,
+2946952,pitavastatin,CYP3A5,C,False,,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,
+2947093,pitavastatin,HMGCR,C,False,,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,
+2777620,pravastatin,CYP3A4,C,False,,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,
+2777627,pravastatin,CYP3A5,C,False,,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,
+110382,propylthiouracil,HLA-B,C,True,3,,,,
+110383,quetiapine,MC4R,C,True,3,,,,
+110384,quinidine,CYP2D6,C,True,,,,,
+110385,quinine,CYP2D6,C,True,,,,,
+418207,remifentanil,COMT,C,False,3,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+418208,remifentanil,OPRM1,C,False,3,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110387,risperidone,DRD2,C,True,3,,,,
+110388,risperidone,HTR2C,C,True,3,,,,
+110389,risperidone,MC4R,C,True,3,,,,
+110390,rosiglitazone,CYP2C8,C,True,3,,,,
+2777622,rosuvastatin,CYP3A4,C,False,,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,
+2777629,rosuvastatin,CYP3A5,C,False,3,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,
+2777769,rosuvastatin,HMGCR,C,False,,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,
+110393,sertraline,CYP2D6,C,False,3,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+110394,sertraline,GRIK4,C,True,,,,,
+110306,aripiprazole,MC4R,C,True,3,,,,
+110060,aspirin,CYP2C9,C,False,,,CYP2C9 and NSAIDs,https://www.clinpgx.org/guideline/PA166251464,32189324
+110308,aspirin,HLA-DPB1,C,True,2B,,,,
+2777772,lovastatin,HMGCR,C,False,3,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,
+110066,lumiracoxib,CYP2C9,C,False,,,CYP2C9 and NSAIDs,https://www.clinpgx.org/guideline/PA166251464,32189324
+110212,probenecid,G6PD,C,False,,Informative PGx,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+3122508,sertraline,SLC6A4,C,False,4,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+2777621,simvastatin,CYP3A4,C,False,3,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,
+2777628,simvastatin,CYP3A5,C,False,4,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,
+110396,sirolimus,CYP3A5,C,True,3,,,,
+110217,sodium nitrite,G6PD,C,False,,Actionable PGx,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+418209,sufentanil,COMT,C,False,3,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+418210,sufentanil,OPRM1,C,False,3,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110218,sulfacetamide,G6PD,C,False,,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+2452941,sulfadimidine,G6PD,C,False,,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110220,sulfamethoxazole / trimethoprim,G6PD,C,False,4,Informative PGx,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110222,sulfisoxazole,G6PD,C,False,,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110397,tacrolimus,CYP3A4,C,True,2A,,,,
+110398,tegafur,DPYD,C,False,1A,,DPYD and Fluoropyrimidines,https://www.clinpgx.org/guideline/PA166251462,23988873;29152729
+110399,terbinafine,CYP2D6,C,True,,,,,
+2452947,tolazamide,G6PD,C,False,,Actionable PGx,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110401,tolterodine,CYP2D6,C,True,3,Informative PGx,,,
+418211,tramadol,COMT,C,False,3,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+110402,tramadol,OPRM1,C,False,3,,"CYP2D6, OPRM1, COMT, and Opioids",https://www.clinpgx.org/guideline/PA166251454,33387367
+2452950,trametinib,G6PD,C,False,,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+3122101,venlafaxine,CYP2C19,C,False,3,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+110404,venlafaxine,GRIK4,C,True,,,,,
+3122380,venlafaxine,HTR2A,C,False,3,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+3122509,venlafaxine,SLC6A4,C,False,4,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+3122381,vilazodone,HTR2A,C,False,,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+3122510,vilazodone,SLC6A4,C,False,,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+110405,vitamin c,G6PD,C,False,,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+2452952,vitamin k,G6PD,C,False,,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+3122103,vortioxetine,CYP2C19,C,False,,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+3122382,vortioxetine,HTR2A,C,False,,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+3122511,vortioxetine,SLC6A4,C,False,,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+110406,ziprasidone,MC4R,C,True,,,,,
+110410,"interferon alfa-2b, recombinant",ITPA,C/D,True,3,,,,
+110412,midazolam,CYP3A5,C/D,True,3,,,,
+110415,nicotine,COMT,C/D,True,3,,,,
+110416,ondansetron,ABCB1,C/D,True,3,,,,
+110417,oxazepam,UGT2B15,C/D,True,3,,,,
+110423,alendronate,FDPS,D,True,,,,,
+110433,aspirin,GP1BA,D,True,3,,,,
+110434,aspirin,LTC4S,D,True,3,,,,
+110435,aspirin,PTGS1,D,True,3,,,,
+110436,atorvastatin,APOE,D,True,2B,,,,
+110437,atorvastatin,CETP,D,True,4,,,,
+110438,atorvastatin,COQ2,D,True,3,,,,
+110439,atorvastatin,KIF6,D,True,3,,,,
+110440,atorvastatin,LDLR,D,True,,,,,
+110441,atorvastatin,LPA,D,True,,,,,
+110443,budesonide,CRHR1,D,True,,,,,
+110445,caffeine,ADORA2A,D,True,3,,,,
+110446,capecitabine,TYMS,D,True,3,,,,
+110447,captopril,ACE,D,True,2A,,,,
+110448,carbamazepine,EPHX1,D,True,3,,,,
+110450,cerivastatin,CETP,D,True,,,,,
+110451,cerivastatin,LPA,D,True,,,,,
+2777625,lovastatin,CYP3A4,C,False,,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,
+2777632,lovastatin,CYP3A5,C,False,3,,"SLCO1B1, ABCG2, CYP2C9, and Statins",https://www.clinpgx.org/guideline/PA166264281,
+1354912,cisplatin,ACYP2,D,True,3,,,,
+110454,cisplatin,ERCC1,D,True,3,,,,
+110455,cisplatin,GSTM1,D,True,3,,,,
+110456,cisplatin,NQO1,D,True,,,,,
+110459,cisplatin,XPC,D,True,3,,,,
+110460,citalopram,FKBP5,D,True,3,,,,
+110461,clozapine,ANKK1,D,True,,,,,
+110462,cyclophosphamide,GSTP1,D,True,3,,,,
+110463,cyclophosphamide,NQO1,D,True,3,,,,
+110464,cyclophosphamide,SOD2,D,True,3,,,,
+110466,daunorubicin,CBR3,D,True,,,,,
+110467,daunorubicin,HAS3,D,True,,,,,
+110468,doxorubicin,CBR3,D,True,3,,,,
+110469,doxorubicin,HAS3,D,True,,,,,
+110470,doxorubicin,NQO1,D,True,,,,,
+110471,eltrombopag,SERPINC1,D,True,,Actionable PGx,,,
+110472,epirubicin,CBR3,D,True,3,,,,
+110473,epirubicin,GSTP1,D,True,3,,,,
+110474,epirubicin,HAS3,D,True,,,,,
+110475,epirubicin,NQO1,D,True,3,,,,
+110477,etoposide,DYNC2H1,D,True,3,,,,
+110478,fluorouracil,GSTP1,D,True,3,,,,
+110479,fluorouracil,NQO1,D,True,3,,,,
+110480,fluorouracil,TYMS,D,True,3,,,,
+110481,fluorouracil,UMPS,D,True,3,,,,
+110482,fluoxetine,FKBP5,D,True,3,,,,
+110483,fluticasone propionate,CRHR1,D,True,,,,,
+110485,fluvastatin,CETP,D,True,3,,,,
+110486,fluvastatin,LPA,D,True,,,,,
+110487,furosemide,ADD1,D,True,3,,,,
+110488,gemcitabine,NT5C2,D,True,3,,,,
+110493,hydrochlorothiazide,NEDD4L,D,True,3,,,,
+110494,hydrochlorothiazide,PRKCA,D,True,3,,,,
+110495,hydrochlorothiazide,YEATS4,D,True,3,,,,
+110496,idarubicin,CBR3,D,True,,,,,
+110497,idarubicin,HAS3,D,True,,,,,
+110498,irinotecan,C8orf34,D,True,3,,,,
+110499,irinotecan,SEMA3C,D,True,3,,,,
+110502,lamotrigine,UGT1A4,D,True,3,,,,
+110503,latanoprost,PTGFR,D,True,3,,,,
+110504,metformin,C11orf65,D,True,4,,,,
+110506,methotrexate,ATIC,D,True,2B,,,,
+110507,methotrexate,MTRR,D,True,3,,,,
+110508,metoclopramide,CYB5R1,D,True,,Informative PGx,,,
+110509,metoclopramide,CYB5R2,D,True,,Informative PGx,,,
+110510,metoclopramide,CYB5R3,D,True,,Informative PGx,,,
+110511,metoclopramide,CYB5R4,D,True,,Informative PGx,,,
+110512,mirtazapine,FKBP5,D,True,3,,,,
+110513,nevirapine,CCHCR1,D,True,3,,,,
+110514,nicotine,CHRNA3,D,True,3,,,,
+110515,olanzapine,ANKK1,D,True,3,,,,
+110516,oxaliplatin,GSTM1,D,True,3,,,,
+110517,oxaliplatin,GSTP1,D,True,3,,,,
+110518,paroxetine,FKBP5,D,True,3,,,,
+110519,paroxetine,HTR1A,D,True,3,,,,
+110520,peginterferon alfa-2b,VDR,D,True,3,,,,
+110525,pravastatin,CETP,D,True,3,,,,
+110526,pravastatin,HMGCR,D,True,3,,,,
+110528,pravastatin,LPA,D,True,,,,,
+110530,raloxifene,FDPS,D,True,,,,,
+110531,ribavirin,VDR,D,True,3,,,,
+110532,risedronate,FDPS,D,True,,,,,
+110533,risperidone,ANKK1,D,True,3,,,,
+110534,rituximab,FCGR3A,D,True,2B,,,,
+110535,rosuvastatin,COQ2,D,True,3,,,,
+110536,rosuvastatin,LPA,D,True,3,,,,
+110537,salbutamol,ADRB2,D,True,3,,,,
+110538,salbutamol,COL22A1,D,True,3,,,,
+110539,salbutamol,CRHR2,D,True,3,,,,
+110540,salmeterol,ADRB2,D,True,2A,,,,
+110542,sildenafil,GNB3,D,True,3,,,,
+110543,simvastatin,CETP,D,True,3,,,,
+110544,simvastatin,HMGCR,D,True,3,,,,
+110545,simvastatin,LPA,D,True,,,,,
+110546,spironolactone,ADD1,D,True,3,,,,
+110548,tenofovir,ABCC4,D,True,3,,,,
+110549,triamcinolone,CRHR1,D,True,,,,,
+110550,venlafaxine,FKBP5,D,True,3,,,,
+110551,warfarin,CALU,D,True,3,,,,
+110552,warfarin,GGCX,D,True,3,,,,
+110395,simvastatin,ABCB1,C,True,3,,,,
+2452943,sulfanilamide,G6PD,C,False,,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110527,pravastatin,KIF6,D,True,3,,,,
+5401509,acebutolol,ADRB1,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401503,acebutolol,CYP2D6,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401541,acebutolol,GRK4,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401554,acebutolol,GRK5,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401529,atenolol,ADRA2C,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+110237,atenolol,ADRB1,C,False,4,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401542,atenolol,GRK4,C,False,3,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+110238,atenolol,GRK5,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401530,betaxolol,ADRA2C,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401511,betaxolol,ADRB1,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401504,betaxolol,CYP2D6,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401543,betaxolol,GRK4,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401556,betaxolol,GRK5,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401531,bisoprolol,ADRA2C,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401505,bisoprolol,CYP2D6,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401544,bisoprolol,GRK4,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401557,bisoprolol,GRK5,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401532,carvedilol,ADRA2C,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+110243,carvedilol,ADRB1,C,False,3,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401522,carvedilol,ADRB2,C,False,3,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+110244,carvedilol,CYP2D6,C,False,3,Informative PGx,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401545,carvedilol,GRK4,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+110328,dolasetron,CYP2D6,C,False,4,,CYP2D6 and Ondansetron and Tropisetron,https://www.clinpgx.org/guideline/PA166251457,41979467
+5401533,esmolol,ADRA2C,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401514,esmolol,ADRB1,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401546,esmolol,GRK4,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401559,esmolol,GRK5,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401534,labetalol,ADRA2C,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401515,labetalol,ADRB1,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401523,labetalol,ADRB2,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401547,labetalol,GRK4,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401560,labetalol,GRK5,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401535,metoprolol,ADRA2C,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401548,metoprolol,GRK4,C,False,3,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+110277,metoprolol,GRK5,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401536,nadolol,ADRA2C,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401517,nadolol,ADRB1,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401524,nadolol,ADRB2,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401549,nadolol,GRK4,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401562,nadolol,GRK5,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401518,nebivolol,ADRB1,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+110281,nebivolol,CYP2D6,C,False,,No Clinical PGx,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401550,nebivolol,GRK4,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401563,nebivolol,GRK5,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+110379,palonosetron,CYP2D6,C,False,,No Clinical PGx,CYP2D6 and Ondansetron and Tropisetron,https://www.clinpgx.org/guideline/PA166251457,41979467
+8099734,ramosetron,CYP2D6,C,False,,,CYP2D6 and Ondansetron and Tropisetron,https://www.clinpgx.org/guideline/PA166251457,41979467
+5401538,pindolol,ADRA2C,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401519,pindolol,ADRB1,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401525,pindolol,ADRB2,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401551,pindolol,GRK4,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401564,pindolol,GRK5,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401539,propranolol,ADRA2C,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401520,propranolol,ADRB1,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401526,propranolol,ADRB2,C,False,3,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+110289,propranolol,CYP2D6,C,False,4,No Clinical PGx,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401552,propranolol,GRK4,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401565,propranolol,GRK5,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401540,sotalol,ADRA2C,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401521,sotalol,ADRB1,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401527,sotalol,ADRB2,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401553,sotalol,GRK4,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401566,sotalol,GRK5,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+110553,warfarin,PROC,D,True,,Actionable PGx,,,
+110554,warfarin,PROS1,D,True,,Actionable PGx,,,
+110151,amikacin,MT-RNR1,A,False,1A,Actionable PGx,MT-RNR1 and Aminoglycosides,https://www.clinpgx.org/guideline/PA166251466,34032273
+110084,azathioprine,NUDT15,A,False,1A,Testing Recommended,"TPMT, NUDT15 and Thiopurines",https://www.clinpgx.org/guideline/PA166251442,21270794;23422873;30447069;41618934
+110146,tropisetron,CYP2D6,A,False,1A,,CYP2D6 and Ondansetron and Tropisetron,https://www.clinpgx.org/guideline/PA166251457,28002639;41979467
+110288,propafenone,CYP2D6,B/C,True,1A,No Clinical PGx,,,
+5401528,acebutolol,ADRA2C,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+110078,abacavir,HLA-B,A,False,1A,Testing Required,HLA-B and Abacavir,https://www.clinpgx.org/guideline/PA166251444,24561393;22378157
+110081,amitriptyline,CYP2D6,A,False,1A,Informative PGx,"CYP2D6, CYP2C19 and Tricyclic Antidepressants",https://www.clinpgx.org/guideline/PA166251445,23486447;27997040
+110113,mercaptopurine,NUDT15,A,False,1A,Testing Recommended,"TPMT, NUDT15 and Thiopurines",https://www.clinpgx.org/guideline/PA166251442,21270794;23422873;30447069;41618934
+110119,ondansetron,CYP2D6,A,False,1A,No Clinical PGx,CYP2D6 and Ondansetron and Tropisetron,https://www.clinpgx.org/guideline/PA166251457,28002639;41979467
+110144,thioguanine,TPMT,A,False,1A,Testing Recommended,"TPMT, NUDT15 and Thiopurines",https://www.clinpgx.org/guideline/PA166251442,21270794;23422873;30447069;41618934
+110255,dolutegravir,UGT1A1,B/C,True,,Informative PGx,,,
+110062,aceclofenac,CYP2C9,C,False,,,CYP2C9 and NSAIDs,https://www.clinpgx.org/guideline/PA166251464,32189324
+5401512,bisoprolol,ADRB1,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+110245,carvedilol,GRK5,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+110177,chloramphenicol,G6PD,C,False,3,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+3122155,escitalopram,CYP2D6,C,False,3,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+110342,fluoxetine,CYP2D6,C,False,3,Actionable PGx,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+110190,glyburide,G6PD,C,False,3,Actionable PGx,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+3122376,levomilnacipran,HTR2A,C,False,,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+3122505,levomilnacipran,SLC6A4,C,False,,,"CYP2D6, CYP2C19, CYP2B6, SLC6A4, HTR2A and Serotonin Reuptake Inhibitor Antidepressants",https://www.clinpgx.org/guideline/PA166251452,37032427
+110275,metoprolol,ADRB1,C,False,3,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+5401537,nebivolol,ADRA2C,C,False,,,"CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",https://www.clinpgx.org/guideline/PA166343383,38951961
+2452931,ofloxacin,G6PD,C,False,,,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+110386,rabeprazole,CYP2C19,C,False,2A,Informative PGx,CYP2C19 and Proton Pump Inhibitors,https://www.clinpgx.org/guideline/PA166251441,32770672
+110221,sulfasalazine,G6PD,C,False,3,Actionable PGx,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896
+2452948,tolbutamide,G6PD,C,False,,Actionable PGx,G6PD,https://www.clinpgx.org/guideline/PA166251450,36049896

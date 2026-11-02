@@ -1,0 +1,7 @@
+pair,cpic_level,top_clinpgx_level,annotations,studies,most_studied_ancestry,top_study_countries,reference
+abacavir / HLA-B,A,1A,1,11,European,"Switzerland (1), Spain (1), Canada (1)",CPIC abacavir/HLA-B guideline 2012 and 2014 update (cpic-data repository; PubMed 24561393)
+clopidogrel / CYP2C19,A,1A,6,154,East Asian,"South Korea (10), China (10), Japan (3)",CPIC clopidogrel/CYP2C19 guideline 2011 2013 and 2022 update (cpic-data repository; PubMed 35034351)
+warfarin / CYP2C9,A,1A,14,175,East Asian,"China (13), South Korea (9), Japan (9)",CPIC warfarin guideline 2011 and 2017 update (cpic-data repository; PubMed 28198005)
+fluorouracil / DPYD,A,1A,64,99,European,"South Korea (1), Portugal (1), Poland (1)",CPIC fluoropyrimidines/DPYD guideline 2013 and 2017 update (cpic-data repository; PubMed 29152729)
+carbamazepine / HLA-B,A,1A,8,55,East Asian,"China (11), Thailand (6), India (5)",CPIC carbamazepine/HLA guideline 2013 and 2017 update; HLA-B*15:02 evidence comes mainly from East Asian cohorts
+allopurinol / HLA-B,A,1A,2,44,East Asian,"South Korea (5), Thailand (4), China (4)",CPIC allopurinol/HLA-B guideline 2013 and 2015 update; HLA-B*58:01 evidence comes mainly from East Asian cohorts

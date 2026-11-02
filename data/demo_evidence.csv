@@ -1,0 +1,10 @@
+record_id,drug,gene,outcome,population,study_count,participants,evidence_grade,source_url,data_status
+DEMO-001,Warfarin,CYP2C9,Dose variability,European ancestry,6,1800,Moderate,https://www.clinpgx.org/,ILLUSTRATIVE
+DEMO-002,Warfarin,CYP2C9,Dose variability,South Asian ancestry,1,120,Limited,https://www.clinpgx.org/,ILLUSTRATIVE
+DEMO-003,Warfarin,CYP2C9,Dose variability,Sub-Saharan African ancestry,0,0,Not assessed,https://www.clinpgx.org/,ILLUSTRATIVE
+DEMO-004,Clopidogrel,CYP2C19,Reduced antiplatelet response,European ancestry,4,1500,Moderate,https://www.clinpgx.org/,ILLUSTRATIVE
+DEMO-005,Clopidogrel,CYP2C19,Reduced antiplatelet response,South Asian ancestry,0,0,Not assessed,https://www.clinpgx.org/,ILLUSTRATIVE
+DEMO-006,Clopidogrel,CYP2C19,Reduced antiplatelet response,East Asian ancestry,3,900,Moderate,https://www.clinpgx.org/,ILLUSTRATIVE
+DEMO-007,Abacavir,HLA-B,Hypersensitivity,European ancestry,5,1200,Moderate,https://www.clinpgx.org/,ILLUSTRATIVE
+DEMO-008,Abacavir,HLA-B,Hypersensitivity,South Asian ancestry,1,90,Limited,https://www.clinpgx.org/,ILLUSTRATIVE
+DEMO-009,Abacavir,HLA-B,Hypersensitivity,Sub-Saharan African ancestry,0,0,Not assessed,https://www.clinpgx.org/,ILLUSTRATIVE

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "human-response-atlas"
+version = "0.8.0"
+description = "Open research infrastructure for discovering and mapping evidence on how people respond to medicines"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.1,<3"]
+
+[project.optional-dependencies]
+app = ["streamlit>=1.50,<2", "altair>=5,<7"]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+hra = "hra.__main__:main"
+
+[tool.setuptools]
+packages = ["hra", "hra.sources"]
+py-modules = ["atlas", "geo", "ingest", "pubmed", "verify"]
