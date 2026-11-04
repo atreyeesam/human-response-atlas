@@ -39,7 +39,8 @@ def check(row: dict, res) -> tuple[bool, str]:
         return exp in found, f'{len(found):,} trial IDs retrieved'
     if kind == 'curated_ancestry_includes':
         groups = rep['population']['curated_ancestry_groups (ClinPGx, curator-reviewed)']
-        return groups.get(exp, 0) > 0, f'{exp}: {groups.get(exp, 0)} studies'
+        n = groups.get(exp, {}).get('count', 0)
+        return n > 0, f'{exp}: {n} studies'
     if kind == 'efficacy_trials_and_reviews_found':
         e = rep['evidence_categories']['efficacy']
         ok = e['randomised_trials'] >= 1 and e['reviews_or_meta_analyses'] >= 1 and e['category'] != LIMITED

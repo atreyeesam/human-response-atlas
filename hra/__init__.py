@@ -8,7 +8,7 @@ Usable without the Streamlit app:
 
 or from the command line: ``python -m hra search clopidogrel --out reports``.
 """
-__version__ = "0.8.0"
+__version__ = "0.10.0"
 
 
 

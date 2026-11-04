@@ -120,6 +120,21 @@ or anything derived from them must keep the attribution below.
   copy in `data/geo/NATURAL_EARTH_LICENSE.md`). The map is for display only and takes no
   position on disputed borders.
 
+## AlphaGenome Atlas (Google DeepMind) — optional
+
+- **What we use:** precomputed variant-effect predictions for the single DNA changes (rsIDs) named in
+  ClinPGx annotations, retrieved with the official `alphagenome` client and a personal API key. Only a
+  summary is kept: for each variant, the largest calibrated score per prediction type and where it
+  occurred.
+- **Terms:** [AlphaGenome Terms of Use](https://deepmind.google.com/science/alphagenome/terms). Free for
+  non-commercial use only (individuals, universities, non-profits, research institutes, government;
+  not for commercial organisations or research on their behalf). Not for clinical purposes, medical
+  advice or decisions affecting health. Published outputs must carry the notice: "By using this
+  information, you agree to AlphaGenome Output Terms of Use." The app, `data/alphagenome/NOTICE.txt`
+  and `manifest.json` carry it. Our summary is a modification of the outputs, and says so.
+- **Variant positions:** NCBI dbSNP via E-utilities, courtesy of the U.S. National Library of Medicine.
+- No endorsement by Google DeepMind is implied.
+
 ## One-line credit for slides or papers
 
 > Pharmacogenomic annotations from ClinPGx (www.clinpgx.org; PharmGKB® and CPIC®),

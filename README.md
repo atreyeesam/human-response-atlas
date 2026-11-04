@@ -1,4 +1,4 @@
-# Human Response Atlas — v0.8
+# Human Response Atlas — v0.10
 
 **Open-source research prototype: a global map of where pharmacogenomic evidence comes from, and who is missing from it.**
 
@@ -23,6 +23,42 @@ It then says what this means for you:
 - being under-studied is a research gap, not a sign of danger.
 
 Your answers are not saved. The page gives no individual prediction or medical advice.
+
+## New in v0.10: AI predictions from AlphaGenome (optional)
+
+Under **Explore the evidence → Medicine details**, the Atlas can show what Google DeepMind's
+**AlphaGenome Atlas** predicts about each DNA change named in the ClinPGx evidence: how strongly an AI
+model expects it to change gene activity, and in which tissue or cell type.
+
+- Only single DNA changes with an rsID are scored. Star alleles (such as CYP2C19\*2) are combinations
+  of changes and are left blank.
+- Positions on the GRCh38 genome come from NCBI dbSNP.
+- For each variant, the Atlas keeps only the strongest calibrated score across all AlphaGenome
+  prediction types, tissues and genes, and where it occurred.
+- **These are hypotheses, not evidence.** They are labelled, shown separately, never used to classify
+  evidence, and never shown on the "Will this medicine work for me?" page.
+- **Terms:** AlphaGenome is free for non-commercial use only and must not be used for clinical
+  purposes or health decisions. Every place the predictions appear carries the required notice:
+  "By using this information, you agree to the AlphaGenome Output Terms of Use."
+
+### Adding the predictions (step by step, on your Mac)
+
+1. Get a free AlphaGenome API key from Google DeepMind (link "Get API key" at
+   <https://github.com/google-deepmind/alphagenome>). Sign in with Google and accept the terms.
+2. In Terminal, in the project folder with the environment switched on, install the client once:
+   ```bash
+   pip install alphagenome
+   ```
+3. Tell it your key and email, then run the download:
+   ```bash
+   export ALPHAGENOME_API_KEY="paste-your-key-here"
+   export NCBI_EMAIL="you@example.org"
+   python alphagenome_atlas.py
+   ```
+   It looks up about 2,600 DNA changes. If it stops, run the last line again: finished ones are kept.
+4. Results are saved in `data/alphagenome/`. Restart the app to see them.
+
+Never put your API key in a file that is uploaded to GitHub.
 
 ## New in v0.8: evidence integrity and benchmarking
 

@@ -9,6 +9,7 @@ import streamlit as st
 import atlas
 import geo
 import ingest
+import alphagenome_atlas
 
 st.set_page_config(page_title='Human Response Atlas', page_icon='🧭', layout='wide',
                    initial_sidebar_state='collapsed')
@@ -674,6 +675,49 @@ else:
 st.markdown(f'<p class="hra-finding">{finding}</p><p class="hra-sub">{sub}</p>',
             unsafe_allow_html=True)
 
+@st.cache_data(show_spinner=False)
+def _alphagenome(stamp):
+    return alphagenome_atlas.load()
+
+
+def alphagenome_section(anns):
+    """AI predictions for the variants of this medicine. Shown for exploration only; never used to
+    classify evidence and never shown on the "Will this medicine work for me?" page."""
+    st.markdown('#### AI-predicted effect of these DNA changes (AlphaGenome)')
+    f = alphagenome_atlas.SUMMARY_FILE
+    summ, man = _alphagenome(f.stat().st_mtime if f.exists() else 0)
+    rs = anns[anns.variant.astype(str).str.match(r'^rs\d+$')]
+    if summ is None:
+        st.caption('Predictions from Google DeepMind’s AlphaGenome Atlas have not been downloaded on this '
+                   'computer. See “AlphaGenome predictions” in the README to add them.')
+        return
+    if rs.empty:
+        st.caption('This evidence names gene variants as star alleles or haplotypes (combinations of DNA '
+                   'changes), which AlphaGenome does not score one by one.')
+        return
+    best = rs.groupby(['gene', 'variant'], as_index=False).level_of_evidence.min()
+    t = best.merge(summ, left_on='variant', right_on='rsid', how='left', suffixes=('', '_dna'))
+    n_rs, n_scored = best.variant.nunique(), t.dropna(subset=['max_score']).variant.nunique()
+    st.markdown(f'<p class="hra-note">{n_scored} of {plural(n_rs, "single DNA change")} named in this evidence '
+                'have a prediction. A score near 1 means AlphaGenome predicts a larger effect on gene '
+                'activity than almost all common human variants, in at least one tissue or cell type. It '
+                'is not evidence that the change affects this medicine.</p>', unsafe_allow_html=True)
+    t = t.sort_values('max_score', ascending=False, na_position='last')
+    st.dataframe(t[['gene', 'variant', 'variant_dna', 'max_score', 'scorer', 'where', 'level_of_evidence']],
+                 hide_index=True, width='stretch', column_config={
+                     'gene': 'Gene', 'variant': 'Variant',
+                     'variant_dna': st.column_config.TextColumn('DNA change (GRCh38)'),
+                     'max_score': st.column_config.ProgressColumn(
+                         'Strongest predicted effect', min_value=0, max_value=1, format='%.2f',
+                         help='AlphaGenome’s calibrated score (quantile against common variants), the '
+                              'largest across all prediction types, tissues and genes. Blank: no prediction.'),
+                     'scorer': st.column_config.TextColumn('Prediction type', help='Which kind of gene '
+                                                           'activity the strongest effect is on.'),
+                     'where': 'Tissue or cell type', 'level_of_evidence': 'ClinPGx level'})
+    st.caption(alphagenome_atlas.DISCLAIMER + ' ' + alphagenome_atlas.TERMS_NOTICE
+               + (f" Retrieved {man['retrieved_utc'][:10]}." if man and man.get('retrieved_utc') else ''))
+
+
 tab_map, tab_people, tab_med, tab_lit, tab_help = st.tabs(
     ['World map', 'Who was studied', 'Medicine details', 'Expand evidence search', 'How to read this'])
 
@@ -919,6 +963,7 @@ with tab_med:
             'source_url': st.column_config.LinkColumn('ClinPGx', display_text='Open')})
         with st.expander(f'Studies behind this evidence ({len(sdf)})'):
             study_table(sdf)
+        alphagenome_section(anns)
         evidence = data['evidence'][data['evidence'].summary_annotation_id.isin(
             anns.summary_annotation_id)]
         st.download_button('Download this medicine’s data', export_zip(
@@ -936,6 +981,11 @@ with tab_help:
                 'that a gene affects how people respond to a medicine. The Atlas does not search '
                 'the wider literature, so grey land means “no studies in ClinPGx yet”, not “no '
                 'research exists”.')
+    st.markdown('### AI predictions (AlphaGenome)')
+    st.markdown('Under *Medicine details*, the Atlas can show predictions from Google DeepMind’s AlphaGenome '
+                'Atlas: how strongly an AI model expects each DNA change to alter gene activity in some tissue '
+                'or cell type. These are hypotheses, not evidence. They are shown separately, labelled, never '
+                'used to classify evidence, and never shown on the “Will this medicine work for me?” page.')
     st.markdown('### Four things kept apart')
     for name, text in atlas.DIMENSIONS.items():
         st.markdown(f'**{name.capitalize()}.** {text}')
